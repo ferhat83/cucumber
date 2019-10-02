@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "facebook Login Test Scenario",
+        "description": "",
+        "id": "facebook-login-feature-using-simple-data-driven;facebook-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10071351867,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already in login page",
+            "match": {
+              "location": "DataDrivenTableMap.user_is_already_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15510583,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is facebook logins",
+            "match": {
+              "location": "DataDrivenTableMap.title_of_login_page_is_facebook_logins()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307053812,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DataDrivenTableMap.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Saadi.Ferhat@live.fr",
+                  "04142016"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29639268561,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "DataDrivenTableMap.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13150042,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is in home page",
+            "match": {
+              "location": "DataDrivenTableMap.user_is_in_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 778527098,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "DataDrivenTableMap.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "facebook login feature using simple data driven",
+    "description": "",
+    "id": "facebook-login-feature-using-simple-data-driven",
+    "keyword": "Feature",
+    "uri": "C:/Users/saadi/eclipse-workspace/seleniumAutomation/CucumberBDDFramework/src/main/java/Features/dataDrivenTableMap.feature"
+  }
+]
